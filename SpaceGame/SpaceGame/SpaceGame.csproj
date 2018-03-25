@@ -54,6 +54,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="EnemySpaceship.cs" />
+    <Compile Include="GameLogic.cs" />
+    <Compile Include="PlayerSpaceship.cs" />
+    <Compile Include="Spaceship.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
