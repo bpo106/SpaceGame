@@ -1,0 +1,15 @@
+C:\Users\Boldizsár\Home Projects\SpaceGame\SpaceGame\SpaceGame\bin\Debug\SpaceGame.exe.config
+C:\Users\Boldizsár\Home Projects\SpaceGame\SpaceGame\SpaceGame\bin\Debug\SpaceGame.exe
+C:\Users\Boldizsár\Home Projects\SpaceGame\SpaceGame\SpaceGame\bin\Debug\SpaceGame.pdb
+C:\Users\Boldizsár\Home Projects\SpaceGame\SpaceGame\SpaceGame\obj\Debug\SpaceGame.csprojResolveAssemblyReference.cache
+C:\Users\Boldizsár\Home Projects\SpaceGame\SpaceGame\SpaceGame\obj\Debug\MainWindow.g.cs
+C:\Users\Boldizsár\Home Projects\SpaceGame\SpaceGame\SpaceGame\obj\Debug\App.g.cs
+C:\Users\Boldizsár\Home Projects\SpaceGame\SpaceGame\SpaceGame\obj\Debug\SpaceGame_MarkupCompile.cache
+C:\Users\Boldizsár\Home Projects\SpaceGame\SpaceGame\SpaceGame\obj\Debug\SpaceGame_MarkupCompile.lref
+C:\Users\Boldizsár\Home Projects\SpaceGame\SpaceGame\SpaceGame\obj\Debug\MainWindow.baml
+C:\Users\Boldizsár\Home Projects\SpaceGame\SpaceGame\SpaceGame\obj\Debug\SpaceGame.g.resources
+C:\Users\Boldizsár\Home Projects\SpaceGame\SpaceGame\SpaceGame\obj\Debug\SpaceGame.Properties.Resources.resources
+C:\Users\Boldizsár\Home Projects\SpaceGame\SpaceGame\SpaceGame\obj\Debug\SpaceGame.csproj.GenerateResource.Cache
+C:\Users\Boldizsár\Home Projects\SpaceGame\SpaceGame\SpaceGame\obj\Debug\SpaceGame.csproj.CoreCompileInputs.cache
+C:\Users\Boldizsár\Home Projects\SpaceGame\SpaceGame\SpaceGame\obj\Debug\SpaceGame.exe
+C:\Users\Boldizsár\Home Projects\SpaceGame\SpaceGame\SpaceGame\obj\Debug\SpaceGame.pdb
