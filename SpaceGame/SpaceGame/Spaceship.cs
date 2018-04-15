@@ -8,5 +8,8 @@ namespace SpaceGame
 {
     public class Spaceship
     {
+        protected int lvl;
+        protected int hp;
+        protected int d6;
     }
 }

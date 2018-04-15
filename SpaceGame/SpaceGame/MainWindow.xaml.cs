@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SpaceEnvironment;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,8 @@ namespace SpaceGame
         public MainWindow()
         {
             InitializeComponent();
+            var spaceDraw = new SpaceDraw(canvas);
+            SpaceElement.DrawSpace(spaceDraw, 10, 10);
         }
     }
 }
