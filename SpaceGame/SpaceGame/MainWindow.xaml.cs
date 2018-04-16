@@ -21,11 +21,30 @@ namespace SpaceGame
     /// </summary>
     public partial class MainWindow : Window
     {
+        PlayerSpaceship playerSpaceship = new PlayerSpaceship();
+
         public MainWindow()
         {
             InitializeComponent();
+
             var spaceDraw = new SpaceDraw(canvas);
             SpaceElement.DrawSpace(spaceDraw, 10, 10);
+
+            playerSpaceship.Set(spaceDraw, 5, 9);
+            playerSpaceship.DrawShip("./images/spaceship.gif");
+        }
+
+        private void WindowKeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Left)
+            {
+                playerSpaceship.Move(1);
+            }
+
+            if (e.Key == Key.Right)
+            {
+                playerSpaceship.Move(-1);
+            }
         }
     }
 }

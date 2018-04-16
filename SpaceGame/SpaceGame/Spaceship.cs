@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SpaceEnvironment;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,5 +12,8 @@ namespace SpaceGame
         protected int lvl;
         protected int hp;
         protected int d6;
+        protected static int posx;
+        protected static int posy;
+        protected static SpaceDraw spaceDraw;
     }
 }
