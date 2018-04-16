@@ -8,5 +8,10 @@ namespace SpaceGame
 {
     public class EnemySpaceship : Spaceship
     {
+        public EnemySpaceship()
+        {
+            posx = random.Next(9);
+            posy = random.Next(9);
+        }
     }
 }

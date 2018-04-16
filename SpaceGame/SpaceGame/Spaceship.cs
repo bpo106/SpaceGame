@@ -12,8 +12,14 @@ namespace SpaceGame
         protected int lvl;
         protected int hp;
         protected int d6;
-        protected static int posx;
-        protected static int posy;
+        protected int posx;
+        protected int posy;
+        protected static readonly Random random = new Random();
         protected static SpaceDraw spaceDraw;
+
+        public void DrawShip(string filename)
+        {
+            spaceDraw.AddImage(filename, posx * 50, posy * 50);
+        }
     }
 }

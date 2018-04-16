@@ -22,6 +22,7 @@ namespace SpaceGame
     public partial class MainWindow : Window
     {
         PlayerSpaceship playerSpaceship = new PlayerSpaceship();
+        List<EnemySpaceship> enemySpaceShips = new List<EnemySpaceship>();
 
         public MainWindow()
         {
@@ -32,6 +33,12 @@ namespace SpaceGame
 
             playerSpaceship.Set(spaceDraw, 5, 9);
             playerSpaceship.DrawShip("./images/spaceship.gif");
+
+            for (int i = 0; i < 8; i++)
+            {
+                enemySpaceShips.Add(new EnemySpaceship());
+                enemySpaceShips[i].DrawShip("./images/enemy.gif");
+            }
         }
 
         private void WindowKeyDown(object sender, KeyEventArgs e)

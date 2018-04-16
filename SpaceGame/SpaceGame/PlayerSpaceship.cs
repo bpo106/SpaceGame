@@ -17,11 +17,6 @@ namespace SpaceGame
             posy = y;
         }
 
-        public void DrawShip(string filename)
-        {
-            spaceDraw.AddImage(filename, posx * 50, posy * 50);
-        }
-
         public void Move(int x)
         {
             if (posx + x < 10 && posx + x >= 0)
