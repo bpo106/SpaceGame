@@ -38,12 +38,12 @@ namespace SpaceGame
         {
             if (e.Key == Key.Left)
             {
-                playerSpaceship.Move(1);
+                playerSpaceship.Move(-1);
             }
 
             if (e.Key == Key.Right)
             {
-                playerSpaceship.Move(-1);
+                playerSpaceship.Move(1);
             }
         }
     }

@@ -24,9 +24,12 @@ namespace SpaceGame
 
         public void Move(int x)
         {
-            spaceDraw.AddImage("./images/space.gif", posx * 50, posy * 50);
-            posx += x;
-            DrawShip("./images/spaceship.gif");
+            if (posx + x < 10 && posx + x >= 0)
+            {
+                spaceDraw.AddImage("./images/space.gif", posx * 50, posy * 50);
+                posx += x;
+                DrawShip("./images/spaceship.gif");
+            }
         }
     }
 }
